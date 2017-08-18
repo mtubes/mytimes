@@ -9,6 +9,7 @@
   padding-left: 30px;
   width: 100%;
   height: 80px;
+  flex-direction: row;
 
 }
 
@@ -16,14 +17,16 @@
   display: inline-block;
   color: mediumaquamarine;
   padding-left: 30px;
+  padding-right: 5px;
 
 
 }
-.header span{
+.header nav{
   display: inline-block;
+  justify-content: flex-end;
   flex-grow: 2;
-  padding-left:500px;
-  padding-right: 30px;
+  margin-left: 1100px;
+
 }
 a {
   color: black;
@@ -34,6 +37,9 @@ a {
   border: thin solid black;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 250px;
+  padding-right: 250px;
+
 
 }
 .container h3 {
@@ -51,7 +57,7 @@ a {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  margin: 5px 10px;
+  margin: 0px 10px;
 }
 
 .container-top{
@@ -60,11 +66,15 @@ a {
 
 .tuna-head p {
   background-image: url("../images/main-story.png");
-  display: flex;
+  display: inline-block;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
 }
 
 .container-bottom{
@@ -87,6 +97,8 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .burger{
   display: inline-block;
@@ -102,13 +114,15 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .medium{
   width: 300px;
   display: inline-block;
   flex-flow: column wrap;
   justify-content: flex-end;
-  margin: 5px 10px;
+  margin: 0px 10px;
 }
 .cat-head p{
   background-image: url("../images/cat.png");
@@ -117,6 +131,9 @@ a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
 .small{
@@ -124,7 +141,7 @@ a {
   display:flex;
   display: inline-block;
   justify-content: flex-end;
-  margin: 5px 10px;
+  margin: 5px 5px;
   }
 
   .news-bites h4{
@@ -140,6 +157,8 @@ a {
     border-bottom-style: outset;
     border-width: 1px;
     border-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 footer{
@@ -149,7 +168,7 @@ footer{
   font-size: 12px;
   display: flex;
 
-  align-content: center;
+  align-items: center;
   justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -172,13 +191,17 @@ footer{
     color: white;
     display: inline-block;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
 
   }
-  .nav-bottom {
+  .footer-container nav{
 
     justify-content: space-between;
+    display: inline-block;
     text-align: center;
+    padding-left: 25px;
   }
  .copyright p{
 
